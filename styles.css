@@ -1,0 +1,28 @@
+.header {
+    margin-bottom: 2vh;
+}
+
+p {
+    margin-top: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+.row {
+    margin: 2vh 0;
+    padding: 2vh 0;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    background-color: #fcfbf9;
+}
+
+iframe {
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 1vh 0;
+}
