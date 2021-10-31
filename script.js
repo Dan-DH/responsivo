@@ -1,4 +1,3 @@
-
 const devices = {
     "galaxy": {
         0: {
