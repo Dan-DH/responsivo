@@ -118,7 +118,8 @@ function loadSite() {
 
 document.querySelector(".input").addEventListener("keydown", (key) => {
     if (key.keyCode == "13") {
-        loadSite()
+            document.querySelectorAll(".rmv").forEach(element => element.remove());
+            loadSite();
     }
 });
 
@@ -131,10 +132,10 @@ const display = {
 document.querySelectorAll(".btn").forEach(btn =>
     btn.addEventListener("click", () => {
        if (display[btn.id]) {
-           document.querySelector("."+btn.id).style.display = "none";
+           document.querySelector("." + btn.id).style.display = "none";
            display[btn.id] = false;
        } else  {
-        document.querySelector("."+btn.id).style.display = "inherit";
+        document.querySelector("." + btn.id).style.display = "inherit";
         display[btn.id] = true;
     }
     }),
