@@ -1,7 +1,7 @@
 # Responsivo
 
 
-<a href="https://dan-dh.github.io/slayer/" target="_blank" rel="noopener"><img src="https://github.com/dan-dh/responsivo/blob/master/screenCap.png?raw=true" alt="Website link" width="400"/></a>
+<a href="https://dan-dh.github.io/responsivo/" target="_blank" rel="noopener"><img src="https://github.com/dan-dh/responsivo/blob/master/screenCap.png?raw=true" alt="Website link" width="400"/></a>
 
 Responsivo is a simple, minimalistic site that allows you preview a website on different mobile devices.
 
